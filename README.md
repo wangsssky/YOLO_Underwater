@@ -1,5 +1,5 @@
 # YOLO_Underwater
-
+This is the official code for our paper "ULO: An Underwater Light-weighted Object Detector for Edge Computing",
 If you are interested in our work, please consider citing the following:
 ```
 citation here
@@ -73,14 +73,14 @@ A optimized version of URPC2019 is used in the work, the updated annotations are
 train
 ```bash
 python main.py --model YOLO-Underwater-Tiny --image_size 512  --num_epochs 300 
---batch_size 64 --lr 0.001 --num_threads 64 --gpu --weight_decay 5e-4  
---checkpoint_path ./ckpt_YOLO_Underwater
+--batch_size 64 --lr 0.001 --num_threads 64 --gpu --weight_decay 5e-4 --preprocessing  
+--checkpoint_path ./ckpt_YOLO_Underwater 
 
 ```
 test
 ```bash
 python main.py --model YOLO-Underwater --image_size 512  --batch_size 1 
---num_threads 4 --gpu  --test True --no_train --no_val 
+--num_threads 4 --gpu  --test True --no_train --no_val --preprocessing
 --resume_path ckpt_YOLO_Underwater/best.pth --conf_thresh 0.25 --nms_thresh 0.45
 ```
 
