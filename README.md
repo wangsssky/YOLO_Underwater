@@ -1,5 +1,5 @@
 # YOLO_Underwater
-This is the official code for our paper "ULO: An Underwater Light-weighted Object Detector for Edge Computing",
+This is the official code for our paper "ULO: An Underwater Light-weight Object Detector for Edge Computing",
 If you are interested in our work, please consider citing the following:
 ```
 citation here
