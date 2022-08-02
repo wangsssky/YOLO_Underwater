@@ -2,7 +2,19 @@
 This is the official code for our paper "ULO: An Underwater Light-weight Object Detector for Edge Computing",
 If you are interested in our work, please consider citing the following:
 ```
-citation here
+@Article{machines10080629,
+AUTHOR = {Wang, Lin and Ye, Xiufen and Wang, Shunli and Li, Peng},
+TITLE = {ULO: An Underwater Light-Weight Object Detector for Edge Computing},
+JOURNAL = {Machines},
+VOLUME = {10},
+YEAR = {2022},
+NUMBER = {8},
+ARTICLE-NUMBER = {629},
+URL = {https://www.mdpi.com/2075-1702/10/8/629},
+ISSN = {2075-1702},
+DOI = {10.3390/machines10080629}
+}
+
 ```
 
 ## Introduction
