@@ -84,7 +84,7 @@ A optimized version of URPC2019 is used in the work, the updated annotations are
 
 train
 ```bash
-python main.py --model YOLO-Underwater-Tiny --image_size 512  --num_epochs 300 
+python main.py --model YOLO-Underwater --image_size 512  --num_epochs 300 
 --batch_size 64 --lr 0.001 --num_threads 64 --gpu --weight_decay 5e-4 --preprocessing  
 --checkpoint_path ./ckpt_YOLO_Underwater 
 
